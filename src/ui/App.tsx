@@ -7,9 +7,9 @@ function App() {
     return localStorage.getItem("darkMode") === "true";
   });
 
-  // Apply class to <html> element
+  
   useEffect(() => {
-    const root = document.documentElement; // this is <html>
+    const root = document.documentElement; 
     if (darkMode) {
       root.classList.add("dark");
     } else {
