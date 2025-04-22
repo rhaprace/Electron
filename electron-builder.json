@@ -1,0 +1,15 @@
+{
+    "appId": "com.atletech.myapp",
+    "files": ["dist-electron","dist-react", "package.json", "dist/**/*"],
+    "icon": "./Icon.ico",
+    "mac":{
+        "target": "dmg"
+    },
+    "linux":{
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
